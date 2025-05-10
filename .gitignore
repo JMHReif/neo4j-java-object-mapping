@@ -1,2 +1,11 @@
+# Ignore the build directory
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
 # Env
 env.*
+
+### VS Code ###
+.vscode/
